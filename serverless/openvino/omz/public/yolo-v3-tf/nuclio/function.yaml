@@ -129,3 +129,4 @@ spec:
         name: always
         maximumRetryCount: 3
       mountMode: volume
+      network: cvat_cvat
