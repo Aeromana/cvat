@@ -92,6 +92,8 @@ services:
 volumes:
   cvat_db:
   cvat_data:
+    external:
+      name: cvat_data_s3fuse
   cvat_keys:
   cvat_logs:
 
